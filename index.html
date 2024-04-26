@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration form</div>
+        <form action="#" id="form">
+            <div class="user-detailes" id="detailes">
+                <div class="input-box">
+                    <span class="detailes">Full name</span>
+                    <input id="name" type="text" placeholder="Enter your name" required >
+                </div>
+                <div class="input-box">
+                    <span class="detailes">Username</span>
+                    <input id="username" type="text" placeholder="Enter your username" required >
+                </div>
+                <div class="input-box" id="input-email">
+                    <span class="detailes">Email</span>
+                    <input id="email" type="text" placeholder="Enter your email" required >
+                </div>
+                <div class="input-box">
+                    <span class="detailes">Phone Number</span>
+                    <input id="number" type="text" placeholder="Enter your number" required >
+                </div>
+                <div class="input-box">
+                    <span class="detailes">Password</span>
+                    <input id="password" type="text" placeholder="Enter your password" required >
+                </div>
+                <div class="input-box">
+                    <span class="detailes">Confirm Password</span>
+                    <input id="c-password" type="text" placeholder="Confirm your password" required >
+                </div>
+            </div>
+            <div class="gender-detailes" id="gender">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <div class="male">
+                        <input id="male" type="radio" name="gender" id="dot-1" checked>
+                    Male
+                    </div>
+                    <div class="Female">
+                        <input id="female" type="radio" name="gender" id="dot-1">
+                    Female
+                    </div>
+                    <div class="Other">
+                        <input id="Other" type="radio" name="gender" id="dot-1">
+                    Other
+                    </div>
+                </div>
+
+
+                <!-- <input type="radio" name="gender" id="dot-2">
+                <input type="radio" name="gender" id="dot-3">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="dot-2">
+                        <span class="dot one"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                    <label for="dot-3">
+                        <span class="dot one"></span>
+                        <span class="gender">Other</span>
+                    </label>
+                </div> -->
+
+
+            </div>
+            <div class="button" id="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+</html>
